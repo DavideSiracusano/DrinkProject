@@ -1,0 +1,54 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/six-beers-drinks-set-icons_603843-1939.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703030400&semt=ais");
+}
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700px;
+  color: goldenrod;
+  background-color: antiquewhite;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.sec-01 {
+  font-size: 25px;
+  padding: 0;
+  font-weight: 900;
+}
+
+.button-01 {
+  background-color: goldenrod;
+  font-size: 12px;
+  height: 30px;
+  border-radius: 10px;
+  border: 0;
+}
+.button-01:hover {
+  background-color: gold;
+}
+
+#ageoutput {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+footer > * {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
+}
